@@ -1,1 +1,106 @@
-@import "../libs/bootstrap1/scss/bootstrap.scss;
+$primary: #5265E1;
+$secondary: #FA5959;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+$accordion-color: (
+    "primary": $primary,
+);
+.col1{
+    padding-right: 2rem;
+}
+.col12{
+   color: grey;
+   padding-right: 10rem;
+}
+.image_background{
+    width: 70%;
+    height: 15rem;
+    background-color: #5265E1;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    right: 0;
+}
+
+/*features*/
+
+.h3{
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+.text_features{
+    color: grey;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+.col22{
+    padding-left: 4rem;
+}
+.col23{
+    color: grey;
+   padding-left: 3rem;
+   padding-right: 6rem;
+}
+.image2_background{
+    width: 85%;
+    height: 15rem;
+    background-color: #5265E1;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    left: 0;
+    margin-bottom: -4rem;
+    margin-left: 1rem;
+}
+
+/*downloadE*/
+
+.downloadE{
+    margin-top:5rem;
+    text-align: center;
+}
+.text_download{
+    color: grey;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.card-text{
+    color: grey;
+    padding-bottom: 1rem;
+}
+.dots {
+    border-top: 4px dotted grey;
+    margin-bottom: 1rem;
+    width: 100%;
+    }
+
+
+/*Questions*/
+
+.questions{
+    padding-top: 5rem;
+    text-align: center;
+}
+.text_questions{
+    color: grey;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+@media (max-width:750px){
+
+}
+@media (max-width: 450px){
+    
+}
+
+@import "../node_modules/bootstrap-scss/bootstrap";
