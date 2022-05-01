@@ -1,11 +1,4 @@
-.col1 {
-  padding-right: 2rem;
-}
 
-.col12 {
-  color: grey;
-  padding-right: 10rem;
-}
 
 .image_background {
   width: 70%;
@@ -20,25 +13,10 @@
 }
 
 /*features*/
-.h3 {
-  padding-left: 10rem;
-  padding-top: 5rem;
-}
 
-.text_features {
-  color: grey;
-  padding-left: 9rem;
-  padding-right: 9rem;
-}
 
-.col22 {
-  padding-left: 4rem;
-}
-
-.col23 {
-  color: grey;
-  padding-left: 3rem;
-  padding-right: 6rem;
+.active_link {
+  border-bottom: solid 3px #FA5959 !important;
 }
 
 .image2_background {
@@ -51,21 +29,19 @@
   border-top-right-radius: 10rem;
   border-bottom-right-radius: 10rem;
   left: 0;
-  margin-bottom: -4rem;
-  margin-left: 1rem;
+}
+
+.color_grey {
+  color: grey;
+}
+.color_white{
+  color: white;
 }
 
 /*downloadE*/
 .downloadE {
   margin-top: 5rem;
   text-align: center;
-}
-
-.text_download {
-  color: grey;
-  text-align: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
 }
 
 .card-text {
@@ -85,11 +61,20 @@
   text-align: center;
 }
 
-.text_questions {
-  color: grey;
-  text-align: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
+@media screen and (max-width: 991px) {
+  .hero_text, .text_features, .text_download, .text_questions {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text_features_column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /*!
